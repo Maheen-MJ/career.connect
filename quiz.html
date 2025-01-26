@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes - Career.Connect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       .navbar {
+    background-color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar-nav .nav-link {
+    color: #000;
+}
+.navbar-nav .nav-link.text-primary {
+    color: #007bff !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+}
+
+        .profile-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .btn-start {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 20px;
+            border-radius: 5px;
+        }
+        .btn-start:hover {
+            background-color: #0056b3;
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .progress-section {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .dropdown-toggle {
+            border: none;
+            background-color: #ffffff;
+            color: #000;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Career.Connect</a>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-primary" href="jobs.html">Jobs</a></li>
+            <li class="nav-item"><a class="nav-link text-primary" href="quiz.html">Quizzes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Challenges</a></li>
+            <li class="nav-item"><a class="nav-link text-primary" href="#">Career Profile</a></li>
+        </ul>
+    </nav>
+    <div class="container-fluid bg-primary text-white p-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <span>Next step:</span>
+                <button class="btn btn-outline-light btn-sm dropdown-toggle" type="button">
+                    Take one of the core quizzes for your role
+                </button>
+            </div>
+            <div class="d-flex align-items-center">
+                <span class="me-2">Your Progress:</span>
+                <button class="btn btn-light btn-sm active">Basic Info</button>
+                <button class="btn btn-outline-light btn-sm">Assessment</button>
+                <button class="btn btn-outline-light btn-sm disabled">Profile</button>
+                <button class="btn btn-outline-light btn-sm disabled">Get Hired</button>
+            </div>
+        </div>
+    </div>
+
+<div class="container mt-4">
+    <h2>Quizzes</h2>
+    <div class="profile-section">
+        <h5>Introduction to quizzes</h5>
+        <p><strong>What are quizzes?</strong><br>
+            Turing quizzes are multiple-choice questionnaires designed to assess your knowledge of specific tech skills.</p>
+
+        <p><strong>What you should do next?</strong><br>
+            There are multiple ways to progress.</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>🔴 Required:</strong> Take core quizzes</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>⚪ Optional:</strong> Take Work Experience Survey</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>⚪ Optional:</strong> Take additional quizzes</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>🔴 Required:</strong> Move on to Challenges</p>
+            </div>
+        </div>
+    </div>
+
+    <h4 class="mt-4">Core quizzes</h4>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/1126/1126012.png" width="50">
+                <h6 class="mt-2">ReactJS</h6>
+                <p>15 min</p>
+                <button class="btn-start">Start Quiz</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/919/919832.png" width="50">
+                <h6 class="mt-2">TypeScript</h6>
+                <p>15 min</p>
+                <button class="btn-start">Start Quiz</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/919/919831.png" width="50">
+                <h6 class="mt-2">Angular</h6>
+                <p>15 min</p>
+                <button class="btn-start">Start Quiz</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" width="50">
+                <h6 class="mt-2">Git</h6>
+                <p>15 min</p>
+                <button class="btn-start">Start Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" width="50">
+                <h6 class="mt-2">GraphQL</h6>
+                <p>15 min</p>
+                <button class="btn-start">Start Quiz</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/919/919827.png" width="50">
+                <h6 class="mt-2">HTML/CSS</h6>
+                <p>15 min</p>
+                <button class="btn-start">Start Quiz</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" width="50">
+                <h6 class="mt-2">JavaScript</h6>
+                <p>15 min</p>
+                <button class="btn-start">Start Quiz</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968322.png" width="50">
+                <h6 class="mt-2">Next.js</h6>
+                <p>15 min</p>
+                <button class="btn-start">Start Quiz</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
